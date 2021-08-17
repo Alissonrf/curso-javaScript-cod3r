@@ -1,0 +1,21 @@
+console.log("Os verdadeiros...")
+console.log(!!3)
+console.log(!!-1)
+console.log(!!' ')
+console.log(!!'texto')
+console.log(!![])
+console.log(!!{})
+console.log(!!Infinity)
+console.log(!!(isaAtivo = true))
+
+console.log("Os Falsos")
+console.log(!!0)
+console.log(!!'')
+console.log(!!null)
+console.log(!!NaN)
+console.log(!!undefined)
+console.log(!!(isaAtivo = false))
+
+console.log("Pra finalizar...")
+var nome = ""
+console.log(nome || 'Desconhecido')
